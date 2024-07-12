@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footwear</title>
+    <link rel="stylesheet" href="footwear.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Categories<span>&#9660;</span></a>
+                <ul class="dropdown-content">
+                    <li><a href="tops.html">Tops</a></li>
+                    <li><a href="bottoms.html">Bottoms</a></li>
+                    <li><a href="homeware.html">Homeware</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </li>
+            <li><a href="map.html">Location & Time</a></li>
+            <li><a href="share.html">Share</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+       
+        <div>
+            <button id="soundButton" onclick="togglePlayback()">
+                <img id="soundImage" src="off.svg" alt="Sound Off">
+            </button>
+            
+            <audio id="sound" src="music.mp3" loop></audio>
+</div>
+
+    </div>
+</header>
+ 
+
+<main class="background">
+   
+    <div class="cardcode">
+        <h1 class="heading">Footwear</h1>
+        <h1 class="heading"> Drag Cards Left or Right to See Items! </h1>
+    <div id="swiper"></div>
+    <button id="backButton">&#x21BA;</button>
+</div>
+    <script src="footwear.js"></script>
+    <script src="sync-audio.js"></script>
+
+</main>
+
+
+</body>
+</html>

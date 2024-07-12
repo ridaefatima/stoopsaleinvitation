@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+header {
+    position: fixed;
+    z-index:0;
+    width: 100%;
+    background-color: rgb(246, 207, 116);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(246, 207, 116);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 120px;
+}
+
+nav ul .dropdown-content li {
+    padding: 10px;
+}
+
+nav ul .dropdown-content li:hover {
+    background-color:  rgb(250, 192, 55); /* Change background color on hover */
+    width: 100%;
+}
+
+nav ul .dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    margin-left: 10px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+#soundButton {
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+#soundButton img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff08b;
+    color:white;
+    overflow: hidden;
+}
+
+
+#share-container span {
+    display: block;
+    margin: 3rem auto;
+    font-size: 50px;
+    padding: 1rem;
+    
+    
+  }
+  #share i {
+    
+    font-size: 100px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .facebook {
+        color: #3b5998;
+  }
+  .twitter {
+      color: #55acee;
+  }
+  
+  
+  .whatsapp {
+      color: #25D366;
+  }
+
+  .instagram {
+   color: pink;
+}
+  
+  .facebook, .twitter,  .whatsapp, .instagram {
+    opacity: 1;
+  }
+  .facebook:hover, .twitter:hover, .whatsapp:hover, .instagram:hover {
+    opacity: 0.5;
+  }
+       
+  .heading{
+
+    margin-bottom: 30px;
+    margin-top: 0px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(246, 207, 116);
+    padding: 10px;
+    
+    }

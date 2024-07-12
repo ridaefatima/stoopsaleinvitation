@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="share.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Categories<span>&#9660;</span></a>
+                <ul class="dropdown-content">
+                    <li><a href="tops.html">Tops</a></li>
+                    <li><a href="bottoms.html">Bottoms</a></li>
+                    <li><a href="homeware.html">Homeware</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </li>
+            <li><a href="map.html">Location & Time</a></li>
+            <li><a href="share.html">Share</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+       
+
+        <div>
+            <button id="soundButton" onclick="togglePlayback()">
+                <img id="soundImage" src="off.svg" alt="Sound Off">
+            </button>
+            
+            <audio id="sound" src="music.mp3" loop></audio>
+</div>
+
+    </div>
+</header>
+
+<main class="background">
+<div id="share">
+
+    <h1 class="heading">Share with Friends!</h1>
+   
+    <a class="facebook" target="blank"><i class="fab fa-facebook"></i></a>
+    
+    
+    <a class="twitter" target="blank"><i class="fab fa-twitter"></i></a>
+    
+
+    <a class="whatsapp" target="blank"><i class="fab fa-whatsapp"></i></a>
+  
+    
+   
+  
+  </div>
+</main>
+
+<script src="share.js"></script>
+<script src="sync-audio.js"></script>
+</body>
+</html>
