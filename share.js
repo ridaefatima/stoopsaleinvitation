@@ -1,7 +1,7 @@
 
 
 
-const link = 'home.html'; // Replace with your actual URL
+const link = 'https://ridaefatima.github.io/stoopsaleinvitation/home.html'; 
 const msg = encodeURIComponent('Hey, there\'s a Stoop Sale happening in our neighborhood!');
 const title = encodeURIComponent(document.title);
 
